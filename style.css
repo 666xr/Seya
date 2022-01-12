@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+html, body {
+	margin: auto 0;
+	font-family: "Inconsolata","Inter", monospace;
+	background-color: #FFF;
+}
+
+.container {
+	background: linear-gradient(rgba(0, 0, 0, 527),rgba(0, 0, 0, 0.5)) , url("universe.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 70vh;
+}
+
+.main-nav {
+	/*background-image: linear-gradient( 65.9deg,  rgba(85,228,224,0.8) 5.5%, rgba(75,68,224,0.54) 54.2%, rgba(64,198,238,0.8) 55.2%, rgba(177,36,224,0.8) 98.4% );*/
+}
+
+.main-ul {
+	display: flex;
+	list-style: none;
+	color: white;
+	margin: 0;
+}
+
+li {
+	padding: 15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.push {
+  margin-left: auto;
+}
+
+/*-------------------*/
